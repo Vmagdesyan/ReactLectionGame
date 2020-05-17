@@ -28,8 +28,6 @@ export class Board extends Component {
   }
 
   render() {
-    const status = 'Next player: X';
-
     return (
       <div>
         <div className={styles.Status}>{status}</div>
